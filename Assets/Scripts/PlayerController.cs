@@ -39,7 +39,9 @@ public class PlayerController : MonoBehaviour
 
         //if (inputHorizontal != 0)
         //{
+        //    transform.translate(vector2.right * input.getaxis("horizontal") * speed * time.deltatime);
 
+        //    Checkanimations();
         //}
 
         if (inputHorizontal > 0 && !facingRight)
@@ -154,12 +156,12 @@ public class PlayerController : MonoBehaviour
 
                 //}
                 
-            else
-            {
+                else
+                {
 
                 animator.Play("PlayerIdle");
 
-            }
+                }
 
         }
 

@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: b059159b19321d34e87ad6b33f8877c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7815
+        width: 341
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c8e1834ea37c43811de125cd5e94e
+      internalID: 500384076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 7815
+        width: 341
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821cca94088fc7d47bb9022137e05eae
+      internalID: 1551602464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_2
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 7815
+        width: 341
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c670a5028d5a4a800aa133b8a220b
+      internalID: 109849508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 7168
+        width: 369
+        height: 506
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdc36f6edd044044be32ebec6b39625
+      internalID: 773045219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 7203
+        width: 370
+        height: 395
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b598fe6b2b24bb408e35920d90c1c63
+      internalID: 136083190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_5
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 7209
+        width: 367
+        height: 388
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160fa3b0b57a93488fcfdb7d0431631
+      internalID: -1720278715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_6
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 7210
+        width: 373
+        height: 375
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ea457ac7dfb4a478201a5f261f5123
+      internalID: 1642996730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_7
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 7209
+        width: 362
+        height: 370
+      alignment: 9
+      pivot: {x: 0.50539875, y: 1.0739429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc685fb3420cac42b91dcf8be013f97
+      internalID: -1139826088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_8
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 7184
+        width: 367
+        height: 391
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf7dd9a6ea21845843ef6d0d65b515
+      internalID: -1714018622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_9
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 7180
+        width: 364
+        height: 402
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae0334106be94048aa3995f091d96eb
+      internalID: 477831773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 6652
+        width: 370
+        height: 405
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee739fecfe883a4ca685b6c577b3fb5
+      internalID: 1608841147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 6635
+        width: 363
+        height: 389
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedac5609ca0943468d9ff0708c1784a
+      internalID: -1847239855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_13
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 6619
+        width: 355
+        height: 384
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485052d17cb5fbe449dd99a1ca32e8b0
+      internalID: 914470091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_14
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 6619
+        width: 366
+        height: 379
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655b71df4a3c4d9429e0aa0b5308fc4e
+      internalID: -130554987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_15
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 5748
+        width: 936
+        height: 644
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a19872bab63ba2498896ebdec164ed1
+      internalID: -616499270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_16
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 5748
+        width: 928
+        height: 679
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e335890d4bf514984d8dc49ebe3c86
+      internalID: -2053602340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_17
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 5868
+        width: 864
+        height: 625
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87038d8f2849ad745a51bd78a98c5b20
+      internalID: -1826222831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 5009
+        width: 880
+        height: 666
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065840b30e193d448ffc4972ed006bd
+      internalID: -1191495273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_19
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 4899
+        width: 857
+        height: 691
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5976e953d5c89c64b8fcedec425bf5a2
+      internalID: 1534398415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_20
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 4934
+        width: 899
+        height: 613
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69bbb8835dedc648bde361c73089508
+      internalID: -745281966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4032
+        width: 899
+        height: 659
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ceee362fed5ad4ba3af11f73759b28
+      internalID: -2107256728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_22
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 4099
+        width: 877
+        height: 676
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50177bef509e4de49950aa73452962c7
+      internalID: 1456541789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_23
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 4153
+        width: 954
+        height: 640
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a752eee0fa9f3c4bbc7aaf48bec98d5
+      internalID: 660957597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3148
+        width: 972
+        height: 696
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c795974839487b4581078a88ed7d0db
+      internalID: -1360320659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2093
+        width: 409
+        height: 711
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4ddfb78911a5b458a4081b6f9072e6
+      internalID: 1466311400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_26
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2086
+        width: 481
+        height: 930
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697e307925ec9c84ea954ed9cfc482ff
+      internalID: -21090378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_27
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2085
+        width: 881
+        height: 691
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130c8d9d70f15342a0a0d2cdcf06d0b
+      internalID: 1599441920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_28
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 2078
+        width: 250
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda4173269bc8447bab19962b29e0e7
+      internalID: -744152078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_29
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2088
+        width: 341
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f02869473c526f48b6f230b43eaa07d
+      internalID: -1977446640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_30
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 2096
+        width: 585
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d80317b8a60b1e4e9a204a477f3f6b2
+      internalID: 470919060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1266
+        width: 881
+        height: 688
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9101be7ba5fa641831a2b3c297bde5
+      internalID: 1547490075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_32
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1266
+        width: 881
+        height: 682
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa316d02415b943a9028692b35a04b
+      internalID: 612047675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_33
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 1270
+        width: 770
+        height: 706
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f60f301897ad342ac6ff31771cf34b
+      internalID: 428240764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FrogPrinceSpritesheetOmega2_0: 500384076
+      FrogPrinceSpritesheetOmega2_1: 1551602464
+      FrogPrinceSpritesheetOmega2_10: -469808736
+      FrogPrinceSpritesheetOmega2_11: 1608841147
+      FrogPrinceSpritesheetOmega2_12: -1847239855
+      FrogPrinceSpritesheetOmega2_13: 914470091
+      FrogPrinceSpritesheetOmega2_14: -130554987
+      FrogPrinceSpritesheetOmega2_15: -616499270
+      FrogPrinceSpritesheetOmega2_16: -2053602340
+      FrogPrinceSpritesheetOmega2_17: -1826222831
+      FrogPrinceSpritesheetOmega2_18: -1191495273
+      FrogPrinceSpritesheetOmega2_19: 1534398415
+      FrogPrinceSpritesheetOmega2_2: 109849508
+      FrogPrinceSpritesheetOmega2_20: -745281966
+      FrogPrinceSpritesheetOmega2_21: -2107256728
+      FrogPrinceSpritesheetOmega2_22: 1456541789
+      FrogPrinceSpritesheetOmega2_23: 660957597
+      FrogPrinceSpritesheetOmega2_24: -1360320659
+      FrogPrinceSpritesheetOmega2_25: 1466311400
+      FrogPrinceSpritesheetOmega2_26: -21090378
+      FrogPrinceSpritesheetOmega2_27: 1599441920
+      FrogPrinceSpritesheetOmega2_28: -744152078
+      FrogPrinceSpritesheetOmega2_29: -1977446640
+      FrogPrinceSpritesheetOmega2_3: 773045219
+      FrogPrinceSpritesheetOmega2_30: 470919060
+      FrogPrinceSpritesheetOmega2_31: 1547490075
+      FrogPrinceSpritesheetOmega2_32: 612047675
+      FrogPrinceSpritesheetOmega2_33: 428240764
+      FrogPrinceSpritesheetOmega2_4: 136083190
+      FrogPrinceSpritesheetOmega2_5: -1720278715
+      FrogPrinceSpritesheetOmega2_6: 1642996730
+      FrogPrinceSpritesheetOmega2_7: -1139826088
+      FrogPrinceSpritesheetOmega2_8: -1714018622
+      FrogPrinceSpritesheetOmega2_9: 477831773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
