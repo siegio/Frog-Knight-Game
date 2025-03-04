@@ -239,7 +239,7 @@ TextureImporter:
       name: FrogPrinceSpritesheetOmega2_6
       rect:
         serializedVersion: 2
-        x: 2106
+        x: 2116
         y: 7210
         width: 373
         height: 375
@@ -345,7 +345,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 627
-        y: 6635
+        y: 6645
         width: 363
         height: 389
       alignment: 2
@@ -411,8 +411,8 @@ TextureImporter:
         y: 5748
         width: 936
         height: 644
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,8 +432,8 @@ TextureImporter:
         y: 5748
         width: 928
         height: 679
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: FrogPrinceSpritesheetOmega2_17
       rect:
         serializedVersion: 2
-        x: 2447
+        x: 2451
         y: 5868
         width: 864
         height: 625
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,8 +474,8 @@ TextureImporter:
         y: 5009
         width: 880
         height: 666
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,8 +495,8 @@ TextureImporter:
         y: 4899
         width: 857
         height: 691
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,8 +516,8 @@ TextureImporter:
         y: 4934
         width: 899
         height: 613
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -537,8 +537,8 @@ TextureImporter:
         y: 4032
         width: 899
         height: 659
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -558,8 +558,8 @@ TextureImporter:
         y: 4099
         width: 877
         height: 676
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -579,8 +579,8 @@ TextureImporter:
         y: 4153
         width: 954
         height: 640
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: FrogPrinceSpritesheetOmega2_24
       rect:
         serializedVersion: 2
-        x: 100
+        x: 96
         y: 3148
         width: 972
         height: 696
-      alignment: 9
-      pivot: {x: 0.8, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -802,6 +802,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 398
+        width: 957
+        height: 621
+      alignment: 9
+      pivot: {x: 0.67374086, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d92e2f8adc5eb449bfd3223f87ebe0a
+      internalID: -469808736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrogPrinceSpritesheetOmega2_34
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 398
+        width: 923
+        height: 717
+      alignment: 9
+      pivot: {x: 0.6737409, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb5c4488407ee44ca0a9592fd8e21d2
+      internalID: -1009866307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -841,6 +883,7 @@ TextureImporter:
       FrogPrinceSpritesheetOmega2_31: 1547490075
       FrogPrinceSpritesheetOmega2_32: 612047675
       FrogPrinceSpritesheetOmega2_33: 428240764
+      FrogPrinceSpritesheetOmega2_34: -1009866307
       FrogPrinceSpritesheetOmega2_4: 136083190
       FrogPrinceSpritesheetOmega2_5: -1720278715
       FrogPrinceSpritesheetOmega2_6: 1642996730

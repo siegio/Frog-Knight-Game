@@ -14,8 +14,8 @@ public class PlayerController2 : MonoBehaviour
     public Animator bodyAnim;
     public Animator capeAnim;
 
-    //public float jump;
-    //public float groundedY;
+    public float jump;
+    public float groundedY;
 
 
     void Start()
@@ -30,7 +30,7 @@ public class PlayerController2 : MonoBehaviour
         {
             transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
 
-            //CheckJump();
+            CheckJump();
             CheckAnimations();
         }
 
@@ -57,7 +57,7 @@ public class PlayerController2 : MonoBehaviour
 
     void CheckAnimations()
     {
-        //if (IsJumpFinished())
+        if (IsJumpFinished())
         {
             if (Input.GetAxis("Horizontal") != 0)
             {
@@ -75,52 +75,54 @@ public class PlayerController2 : MonoBehaviour
     }
 
     //Jump
-    //void CheckJump()
-    //{
-    //    if (Input.GetButtonDown("Jump") && IsGrounded())
-    //    {
+    void CheckJump()
+    {
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
 
-    //        GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+            GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
 
-    //    }
+            headAnim.Play("Head_Walk");
+            bodyAnim.Play("Player_Jump");
+            capeAnim.Play("CapeF_Walk");
 
-    //    if (Input.GetAxis("Horizontal") > 0 && !IsGrounded())
-    //    {
-    //        headAnim.Play("Head_Idle");
-    //        bodyAnim.Play("Player_Jump");
-    //        capeAnim.Play("CapeF_Idle");
-    //    }
+        }
 
-    //}
+    }
 
-    //public bool IsGrounded()
-    //{
+    public bool IsGrounded()
+    {
 
-    //    RaycastHit2D hit = Physics2D.Raycast(transform.position + new Vector3(0, groundedY), Vector2.down, .1f);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position + new Vector3(0, groundedY), Vector2.down, .1f);
 
-    //    if (hit.collider != null)
-    //    {
+        if (hit.collider != null)
+        {
+            
+            return true;
 
-    //        return true;
-
-    //    }
+        }
 
 
-    //    return false;
+        return false;
 
-    //}
+    }
 
-    //public bool IsJumpFinished()
-    //{
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position + new Vector3(0, groundedY), Vector2.down * .1f);
+    }
 
-    //    if (!IsGrounded()) { return false; }
+    public bool IsJumpFinished()
+    {
 
-    //    if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Jump")) { return true; }
+        if (!IsGrounded()) { return false; }
 
-    //    if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length) { return false; }
+        if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Jump")) { return true; }
 
-    //    Debug.Log("JumpFinished");
-    //    return true;
+        if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length) { return false; }
 
-    //}
+        return true;
+
+    }
 }
