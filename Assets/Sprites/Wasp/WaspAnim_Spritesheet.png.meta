@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06d3a7c10181b4242a7975ccb677b660
+guid: 72286999f2b546d4faba153dccdd3ec0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,148 +110,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GrasshopperAnim_Walk_0
+      name: WaspAnim_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4b84e29e4231148a0687384113a0bd
+      internalID: 1048700194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c334181885b944a4a68d121d26f4c
+      internalID: -708209727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff9a4d5147fbe4c860757b811115b5
+      internalID: -185551443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254672eeb28de724eae551cc70248354
+      internalID: -720196032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12fb4f72c380ab44addaee2443b8e95
+      internalID: -346881836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e89e2dfed6dab4bb7eb1a351cadf05
+      internalID: 1177833514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03efc3381938bef4db75621568cbf05a
+      internalID: -1396937578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d73be19cf4ed446820157c253db13e
+      internalID: -473613273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 0
         y: 512
-        width: 1024
+        width: 512
         height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20b8a6f188843704c8e7383e1ce9a12a
-      internalID: 739833967
+      spriteID: 1995a143a696b84499b2f87eb739b7eb
+      internalID: -459900847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrasshopperAnim_Walk_1
+      name: WaspAnim_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4607d7dfb2ab34f4b8c702ba10cdf675
+      internalID: -298480423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaspAnim_Spritesheet_10
       rect:
         serializedVersion: 2
         x: 1024
         y: 512
-        width: 1024
+        width: 512
         height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c8a45a00d908a42ac03514cad909e7
-      internalID: 496831198
+      spriteID: e3d64d9d8ec0e9349854c7a89afeeb63
+      internalID: -1546157094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrasshopperAnim_Walk_2
+      name: WaspAnim_Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 2048
+        x: 1536
         y: 512
-        width: 1024
+        width: 512
         height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 939bc4c1eaeac0743b47e8fcc6d1d578
-      internalID: -1584604128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GrasshopperAnim_Walk_3
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 512
-        width: 1024
-        height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71f158d3cb520754e9bfd7c699a1ad33
-      internalID: -1965316696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GrasshopperAnim_Walk_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d239c705b101aeb4995e889d69357117
-      internalID: -1032245119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GrasshopperAnim_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 1024
-        height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2bc53dcdd7860d4e9b4e7b2784f9c78
-      internalID: -1611618081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GrasshopperAnim_Walk_6
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 1024
-        height: 512
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b3a3691844784143baa53afc15cdc75
-      internalID: 1265255797
+      spriteID: caa936bd602954c469d7b3d9bb8528cc
+      internalID: -1916073937
       vertices: []
       indices: 
       edges: []
@@ -267,13 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GrasshopperAnim_Walk_0: 739833967
-      GrasshopperAnim_Walk_1: 496831198
-      GrasshopperAnim_Walk_2: -1584604128
-      GrasshopperAnim_Walk_3: -1965316696
-      GrasshopperAnim_Walk_4: -1032245119
-      GrasshopperAnim_Walk_5: -1611618081
-      GrasshopperAnim_Walk_6: 1265255797
+      WaspAnim_Spritesheet_0: 1048700194
+      WaspAnim_Spritesheet_1: -708209727
+      WaspAnim_Spritesheet_10: -1546157094
+      WaspAnim_Spritesheet_11: -1916073937
+      WaspAnim_Spritesheet_2: -185551443
+      WaspAnim_Spritesheet_3: -720196032
+      WaspAnim_Spritesheet_4: -346881836
+      WaspAnim_Spritesheet_5: 1177833514
+      WaspAnim_Spritesheet_6: -1396937578
+      WaspAnim_Spritesheet_7: -473613273
+      WaspAnim_Spritesheet_8: -459900847
+      WaspAnim_Spritesheet_9: -298480423
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

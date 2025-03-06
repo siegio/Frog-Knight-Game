@@ -3803,7 +3803,7 @@ PrefabInstance:
       objectReference: {fileID: 2019067875}
     - target: {fileID: 3506985165627996491, guid: e95493772096a7e40a966a22e55e4250, type: 3}
       propertyPath: aggroRange
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3849663241573049320, guid: e95493772096a7e40a966a22e55e4250, type: 3}
       propertyPath: m_LocalPosition.x
