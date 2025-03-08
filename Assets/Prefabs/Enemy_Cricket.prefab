@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb1a6dae091989458282d69a51b149e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 818023570769690536, guid: 22ab4be2e0a2a3a4d82e889f283e911e, type: 3}
+  player: {fileID: 8999789970876488883, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
   aggroRange: 9
   speed: 2
   jumpCooldown: 4

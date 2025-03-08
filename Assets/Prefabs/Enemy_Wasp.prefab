@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700fdf322a0947946b0d3bbf90f34931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 818023570769690536, guid: 22ab4be2e0a2a3a4d82e889f283e911e, type: 3}
+  player: {fileID: 8999789970876488883, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
   aggroRange: 6
   speed: 1
   jumpCooldown: 5
@@ -214,7 +214,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1048700194, guid: 72286999f2b546d4faba153dccdd3ec0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2}

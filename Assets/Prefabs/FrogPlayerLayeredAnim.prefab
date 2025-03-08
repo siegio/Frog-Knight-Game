@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -391683132, guid: bf041ad7dd82b6c43b6daad28d69267d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -443,6 +443,7 @@ GameObject:
   - component: {fileID: 8702200230663644271}
   - component: {fileID: 3109857005764808682}
   - component: {fileID: 696022593133538714}
+  - component: {fileID: 308098406608022890}
   m_Layer: 0
   m_Name: FrogPlayerLayeredAnim
   m_TagString: Player
@@ -527,3 +528,18 @@ MonoBehaviour:
   headAnim: {fileID: 2325695109820866214}
   bodyAnim: {fileID: 9157769591374799995}
   capeAnim: {fileID: 6886110996084997451}
+  jump: 7
+  groundedY: -0.06
+--- !u!114 &308098406608022890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999789970876488883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68cdc7c3b86a814d90393b38d1533b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cm: {fileID: 0}

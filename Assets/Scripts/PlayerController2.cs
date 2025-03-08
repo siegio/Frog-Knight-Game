@@ -23,6 +23,7 @@ public class PlayerController2 : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
+    //Move character and flip
     void Update()
     {
         inputHorizontal = Input.GetAxisRaw("Horizontal");
@@ -107,6 +108,7 @@ public class PlayerController2 : MonoBehaviour
 
     }
 
+    //Draw line for checking grounded
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
