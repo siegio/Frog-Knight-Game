@@ -17,7 +17,6 @@ public class PlayerController2 : MonoBehaviour
     public float jump;
     public float groundedY;
 
-
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();

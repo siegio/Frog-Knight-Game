@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 3109857005764808682}
   - component: {fileID: 696022593133538714}
   - component: {fileID: 308098406608022890}
+  - component: {fileID: 8442904549705599694}
   m_Layer: 0
   m_Name: FrogPlayerLayeredAnim
   m_TagString: Player
@@ -519,7 +520,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8999789970876488883}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b71b8b5aef934dc48a55c61265d7fb02, type: 3}
   m_Name: 
@@ -543,3 +544,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cm: {fileID: 0}
+--- !u!114 &8442904549705599694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999789970876488883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2137f6d3a3de6514084ee6a93cc40dcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnim: {fileID: 9157769591374799995}
+  isAttacking: 0
