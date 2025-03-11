@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 3469019658424140656}
   - component: {fileID: 738398526251962745}
   - component: {fileID: 3506985165627996491}
+  - component: {fileID: 2021285801836334180}
   m_Layer: 10
   m_Name: Enemy_Cricket
   m_TagString: Enemy
@@ -230,3 +231,17 @@ MonoBehaviour:
   speed: 2
   jumpCooldown: 4
   jumpForce: 8
+--- !u!114 &2021285801836334180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7458558675162823088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b912bf7d8d35cf84bb69c1c13510c988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  animator: {fileID: 6729479894091145869}

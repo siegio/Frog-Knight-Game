@@ -34,7 +34,8 @@ public class EnemyHealth : MonoBehaviour
 
     void Die(){
 
-        animator.SetBool("IsDead", true);
+        //enable below when wasp has a death anim
+        //animator.SetBool("IsDead", true);
 
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
