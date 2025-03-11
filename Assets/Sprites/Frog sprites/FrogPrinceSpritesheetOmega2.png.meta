@@ -597,7 +597,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 3148
+        y: 3153
         width: 972
         height: 696
       alignment: 9
@@ -617,12 +617,12 @@ TextureImporter:
       name: FrogPrinceSpritesheetOmega2_25
       rect:
         serializedVersion: 2
-        x: 229
-        y: 2093
+        x: 227
+        y: 2095
         width: 409
         height: 711
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5702663, y: -0.0028867654}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -642,8 +642,8 @@ TextureImporter:
         y: 2086
         width: 481
         height: 930
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.26527452, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -663,8 +663,8 @@ TextureImporter:
         y: 2085
         width: 881
         height: 691
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.07592954, y: 0.0029713786}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -744,11 +744,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 135
-        y: 1266
+        y: 1271
         width: 881
         height: 688
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.08058982, y: -0.008950522}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -765,11 +765,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1374
-        y: 1266
+        y: 1271
         width: 881
         height: 682
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.07592967, y: -0.0030100534}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -789,8 +789,8 @@ TextureImporter:
         y: 1270
         width: 770
         height: 706
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.094998285, y: 0.012963141}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

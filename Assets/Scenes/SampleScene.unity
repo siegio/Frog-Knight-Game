@@ -4011,6 +4011,14 @@ PrefabInstance:
       propertyPath: canReceiveInput
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2420427597868544076, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5683594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420427597868544076, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5019531
+      objectReference: {fileID: 0}
     - target: {fileID: 3109857005764808682, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
       propertyPath: healthBar
       value: 
