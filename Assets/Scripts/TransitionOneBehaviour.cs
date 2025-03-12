@@ -13,16 +13,16 @@ public class TransitionOneBehaviour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (PlayerAttackComboTest.instance.isAttacking)
+        if (PlayerController2.instance.isAttacking)
         {
-            PlayerAttackComboTest.instance.myAnim.Play("Attack Two");
+            PlayerController2.instance.bodyAnim.Play("Attack Two");
         }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        PlayerAttackComboTest.instance.isAttacking = false;
+        PlayerController2.instance.isAttacking = false;
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

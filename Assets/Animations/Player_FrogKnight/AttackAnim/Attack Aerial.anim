@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Attack Three
+  m_Name: Attack Aerial
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -61,7 +61,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: AttackCollider3
+    path: AttackCollider1
     classID: 60
     script: {fileID: 0}
     flags: 0
@@ -69,15 +69,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1623050594, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+      value: {fileID: -1305125549, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
     - time: 0.083333336
-      value: {fileID: 301692219, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+      value: {fileID: 781848280, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
     - time: 0.16666667
-      value: {fileID: -1976717254, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+      value: {fileID: 642155467, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
     - time: 0.25
-      value: {fileID: 708594025, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+      value: {fileID: 566529901, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
     - time: 0.33333334
-      value: {fileID: -1757575974, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+      value: {fileID: 1739871094, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -91,7 +91,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1875690563
+      path: 2177017199
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 60
@@ -109,17 +109,17 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1623050594, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
-    - {fileID: 301692219, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
-    - {fileID: -1976717254, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
-    - {fileID: 708594025, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
-    - {fileID: -1757575974, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+    - {fileID: -1305125549, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+    - {fileID: 781848280, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+    - {fileID: 642155467, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+    - {fileID: 566529901, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
+    - {fileID: 1739871094, guid: 21ac3d18bc1233e44863aa05034b670e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.41666666
+    m_StopTime: 0.4166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -179,7 +179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: AttackCollider3
+    path: AttackCollider1
     classID: 60
     script: {fileID: 0}
     flags: 0

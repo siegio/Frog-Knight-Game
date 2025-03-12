@@ -62,7 +62,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec206ae77a09154086d674464fc57df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 1
 --- !u!1 &1392710441974089396
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +269,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -309,6 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec206ae77a09154086d674464fc57df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 1
 --- !u!1 &3741667924074035951
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +611,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -647,6 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec206ae77a09154086d674464fc57df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 1
 --- !u!1 &7051841423812531342
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,17 +829,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8999789970876488883}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b71b8b5aef934dc48a55c61265d7fb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  attackSpeed: 3
   headAnim: {fileID: 2325695109820866214}
   bodyAnim: {fileID: 9157769591374799995}
   capeAnim: {fileID: 6886110996084997451}
   jump: 7
   groundedY: -0.06
+  isAttacking: 0
 --- !u!114 &308098406608022890
 MonoBehaviour:
   m_ObjectHideFlags: 0

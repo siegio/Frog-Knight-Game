@@ -21,7 +21,7 @@ public class PlayerAttackComboTest : MonoBehaviour
 
     void Attack()
     {
-        if (Input.GetKeyDown("a") && !isAttacking)
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
         {
             isAttacking = true;
         }

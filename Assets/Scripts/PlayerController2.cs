@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController2 : MonoBehaviour
 {
     public float speed;
+    public float attackSpeed;
 
     Rigidbody2D rb;
 
@@ -17,32 +18,53 @@ public class PlayerController2 : MonoBehaviour
     public float jump;
     public float groundedY;
 
+    public bool isAttacking = false;
+    public static PlayerController2 instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+
     }
 
     //Move character and flip
     void Update()
     {
+        Attack();
         inputHorizontal = Input.GetAxisRaw("Horizontal");
 
-        {
-            transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
 
-            CheckJump();
-            CheckAnimations();
+        if (IsAttackFinished())
+         
+        {
+                transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+
+                CheckJump();
+                CheckAnimations();
+        }
+
+        if (!IsAttackFinished())
+
+        {
+            transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * attackSpeed * Time.deltaTime);
         }
 
         if (inputHorizontal > 0 && !facingRight)
-        {
-            Flip();
-        }
+            {
+                Flip();
+            }
 
-        if (inputHorizontal < 0 && facingRight)
-        {
-            Flip();
-        }
+            if (inputHorizontal < 0 && facingRight)
+            {
+                Flip();
+            }
+        
+
     }
 
     void Flip()
@@ -124,6 +146,45 @@ public class PlayerController2 : MonoBehaviour
         if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length) { return false; }
 
         return true;
+
+    }
+
+    //function for attacking
+    void Attack()
+    {
+        if (Input.GetButtonDown("Fire1") && !isAttacking && IsJumpFinished())
+        {
+            //Debug.Log("Attacking");
+            isAttacking = true;
+        }
+    }
+
+    void AerialAttack()
+    {
+        if (Input.GetButtonDown("Fire1") && !IsGrounded())
+        {
+            //Debug.Log("Attacking");
+            bodyAnim.SetTrigger("Attack");
+        }
+    }
+
+    public bool IsAttackFinished()
+    {
+
+        if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
+        {
+            Debug.Log("AttackFinished");
+            return true;
+
+        }
+
+        if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length)
+        {
+            Debug.Log("AttackNotFinished");
+            return false;
+        }
+
+        return false;
 
     }
 }
