@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: a433454b92e3499459dc4640ece4b59f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 126
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1218
+        width: 1227
+        height: 822
+      alignment: 9
+      pivot: {x: 0.19895919, y: 0.0656373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e8ea816450fd46aae39856d6880f3
+      internalID: 1729654296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1209
+        width: 782
+        height: 804
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f5c13f1d42794ea6d3c5f16e9b9f1
+      internalID: -1689295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 628
+        width: 495
+        height: 581
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7214813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb5761106b8d5542a2a384cc2f732bc
+      internalID: 24420587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 335
+        width: 1166
+        height: 874
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cb1617b9becd4cadfcc0270526c1d
+      internalID: -1241919611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 761
+        width: 318
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05474978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102884f888492b54eb05a5e6ba9d6f5d
+      internalID: 1141624664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 242
+        width: 411
+        height: 354
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96660302b60e11e4fbad46288a81bba6
+      internalID: 1003690605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 194
+        width: 879
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c00a4849f0cba47920c05c9cfd598e
+      internalID: -499733700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 265
+        width: 338
+        height: 495
+      alignment: 9
+      pivot: {x: 0.54240245, y: 0.028953476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a444f9c4c51d9e4091846498388a4fa
+      internalID: -454301428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 318
+        height: 215
+      alignment: 9
+      pivot: {x: 0.49768728, y: 0.05130514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ccfd203eb0d74f9ceb18b8d6e6134
+      internalID: 799373210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1
+        width: 770
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5, y: 0.772511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba43492ba7c710447a7843f332333d02
+      internalID: -879099171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 5
+        width: 363
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55917c3eaf8da3842b38e96a9fa06889
+      internalID: 1474921216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TrainingGroundsSpritesheet_0: 1729654296
+      TrainingGroundsSpritesheet_1: -1689295347
+      TrainingGroundsSpritesheet_10: -241515544
+      TrainingGroundsSpritesheet_11: 1474921216
+      TrainingGroundsSpritesheet_2: 24420587
+      TrainingGroundsSpritesheet_3: -1241919611
+      TrainingGroundsSpritesheet_4: 1141624664
+      TrainingGroundsSpritesheet_5: 1003690605
+      TrainingGroundsSpritesheet_6: -499733700
+      TrainingGroundsSpritesheet_7: -454301428
+      TrainingGroundsSpritesheet_8: 799373210
+      TrainingGroundsSpritesheet_9: -879099171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
