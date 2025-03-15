@@ -159,28 +159,28 @@ public class PlayerController2 : MonoBehaviour
         }
     }
 
-    void AerialAttack()
-    {
-        if (Input.GetButtonDown("Fire1") && !IsGrounded())
-        {
-            //Debug.Log("Attacking");
-            bodyAnim.SetTrigger("Attack");
-        }
-    }
+    //void AerialAttack()
+    //{
+    //    if (Input.GetButtonDown("Fire1") && !IsGrounded())
+    //    {
+    //        //Debug.Log("Attacking");
+    //        bodyAnim.SetTrigger("Attack");
+    //    }
+    //}
 
     public bool IsAttackFinished()
     {
 
         if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
-            Debug.Log("AttackFinished");
+            //Debug.Log("AttackFinished");
             return true;
 
         }
 
         if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length)
         {
-            Debug.Log("AttackNotFinished");
+            //Debug.Log("AttackNotFinished");
             return false;
         }
 
