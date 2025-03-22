@@ -16,6 +16,8 @@ public class IdleBehaviour : StateMachineBehaviour
         if (PlayerController2.instance.isAttacking)
         {
             PlayerController2.instance.bodyAnim.Play("Attack One");
+            PlayerController2.instance.headAnim.Play("Head_Walk");
+            PlayerController2.instance.capeAnim.Play("CapeF_Walk");
         }
     }
 

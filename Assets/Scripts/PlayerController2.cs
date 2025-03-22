@@ -175,7 +175,6 @@ public class PlayerController2 : MonoBehaviour
         {
             //Debug.Log("AttackFinished");
             return true;
-
         }
 
         if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length)
