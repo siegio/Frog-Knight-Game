@@ -8,6 +8,7 @@ public class EnemyWasp : MonoBehaviour
     public float aggroRange;
     public float speed;
     public float jumpCooldown;
+    bool facingLeft = true;
 
     void Update()
     {
@@ -24,7 +25,19 @@ public class EnemyWasp : MonoBehaviour
             {
 
                 transform.Translate(Vector2.right * Time.deltaTime * speed);
+            }
 
+            //Flips enemy depending on player position
+            if (player.transform.position.x < transform.position.x && !facingLeft)
+            {
+
+                Flip();
+
+            }
+            else if (player.transform.position.x > transform.position.x && facingLeft)
+            {
+
+                Flip();
             }
 
             //Makes enemy go up and down on y-axis)
@@ -42,6 +55,15 @@ public class EnemyWasp : MonoBehaviour
             }
         }
 
+    }
+
+    void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingLeft = !facingLeft;
     }
 
 }

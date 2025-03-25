@@ -9,6 +9,7 @@ public class EnemyLizard : MonoBehaviour
     public float speed;
     public float jumpCooldown;
     public float jumpForce;
+    bool facingLeft = true;
 
     float lastJump;
 
@@ -31,6 +32,20 @@ public class EnemyLizard : MonoBehaviour
 
             }
 
+            //Flips enemy depending on player position
+            if (player.transform.position.x < transform.position.x && !facingLeft)
+            {
+
+                Flip();
+
+            }
+            else if (player.transform.position.x > transform.position.x && facingLeft)
+            {
+
+                Flip();
+            }
+
+            //Makes enemy jump with certain intervals
             if (Time.time > lastJump + jumpCooldown)
             {
 
@@ -44,12 +59,14 @@ public class EnemyLizard : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void Flip()
     {
-        if (collision.collider.GetComponent<PlayerController>())
-        {
-            collision.collider.GetComponent<PlayerController>();
-        }
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingLeft = !facingLeft;
     }
 
 }
