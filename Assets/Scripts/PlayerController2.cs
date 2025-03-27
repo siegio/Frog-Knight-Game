@@ -36,6 +36,7 @@ public class PlayerController2 : MonoBehaviour
     void Update()
     {
         Attack();
+        AerialAttack();
         inputHorizontal = Input.GetAxisRaw("Horizontal");
 
 
@@ -110,6 +111,14 @@ public class PlayerController2 : MonoBehaviour
 
         }
 
+        if (!IsGrounded())
+        {
+            headAnim.Play("Head_Walk");
+            bodyAnim.Play("Player_Jump");
+            capeAnim.Play("CapeF_Walk");
+        }
+
+
     }
 
     public bool IsGrounded()
@@ -143,7 +152,7 @@ public class PlayerController2 : MonoBehaviour
 
         if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Jump")) { return true; }
 
-        if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length) { return false; }
+        //if (bodyAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < bodyAnim.GetCurrentAnimatorStateInfo(0).length) { return false; }
 
         return true;
 
@@ -159,14 +168,14 @@ public class PlayerController2 : MonoBehaviour
         }
     }
 
-    //void AerialAttack()
-    //{
-    //    if (Input.GetButtonDown("Fire1") && !IsGrounded())
-    //    {
-    //        //Debug.Log("Attacking");
-    //        bodyAnim.SetTrigger("Attack");
-    //    }
-    //}
+    void AerialAttack()
+    {
+        if (Input.GetButtonDown("Fire1") && !IsGrounded())
+        {
+            Debug.Log("Attacking");
+            bodyAnim.SetTrigger("Attack");
+        }
+    }
 
     public bool IsAttackFinished()
     {
