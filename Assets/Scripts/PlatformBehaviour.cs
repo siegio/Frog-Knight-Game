@@ -13,20 +13,20 @@ public class PlatformBehaviour : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        //Check if player is under or over platform
-        //Let player pass through platform from below
-        if (player.transform.position.y < transform.position.y)
-        {
-            platformCollider.enabled = false;
-        }
+    //void Update()
+    //{
+    //    //Check if player is under or over platform
+    //    //Let player pass through platform from below
+    //    if (player.transform.position.y < transform.position.y)
+    //    {
+    //        platformCollider.enabled = false;
+    //    }
 
-        if (player.transform.position.y >= transform.position.y)
-        {
-            platformCollider.enabled = true;
-        }
-    }
+    //    if (player.transform.position.y >= transform.position.y)
+    //    {
+    //        platformCollider.enabled = true;
+    //    }
+    //}
 
 
 }

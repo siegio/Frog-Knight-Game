@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    private void OnCollisionEnter2D(Collision2D other) 
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
@@ -41,6 +41,7 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(20);
 
         }
+
 
         //Sets Game Over screen when player runs out of HP
         if (currentHealth <= 0)
