@@ -17,15 +17,6 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    //Underneath function is a test function to make sure health bar works. Can be commented out later.
-    //void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.Space))
-    //    {
-    //        TakeDamage(20);
-    //    }
-    //}
-
     void TakeDamage(int damage)
     {
         currentHealth -= damage;

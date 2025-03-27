@@ -10,6 +10,11 @@ public class EnemyWasp : MonoBehaviour
     public float jumpCooldown;
     bool facingLeft = true;
 
+    //public float KBForce = 5;
+    //public float KBCounter;
+    //public float KBTotalTime = 2;
+    //public CheckEnemyCollision CheckEnemyCollision;
+
     void Update()
     {
         
@@ -57,6 +62,7 @@ public class EnemyWasp : MonoBehaviour
 
     }
 
+
     void Flip()
     {
         Vector3 currentScale = gameObject.transform.localScale;
@@ -65,5 +71,28 @@ public class EnemyWasp : MonoBehaviour
 
         facingLeft = !facingLeft;
     }
+
+    //private void FixedUpdate()
+    //{
+    //    if (player.transform.position.x < transform.position.x && KBCounter > 0)
+    //        //other.GetComponent<Rigidbody2D>().AddForce(Vector2.right * KBForce, ForceMode2D.Impulse);
+    //        GetComponent<Rigidbody2D>().velocity = new Vector2(KBForce, KBForce);
+
+    //    else if (player.transform.position.x > transform.position.x && KBCounter > 0)
+    //        //other.GetComponent<Rigidbody2D>().AddForce(Vector2.left * KBForce, ForceMode2D.Impulse);
+    //        GetComponent<Rigidbody2D>().velocity = new Vector2(-KBForce, KBForce);
+
+    //    if (KBCounter <= 0)
+    //    {
+    //        GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+    //        Debug.Log("Movement stops");
+    //    }
+
+    //    if (KBCounter > 0)
+    //    {
+    //        KBCounter -= Time.deltaTime;
+    //    }
+
+    //}
 
 }

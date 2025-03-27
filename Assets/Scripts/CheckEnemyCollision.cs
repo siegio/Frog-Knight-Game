@@ -5,24 +5,16 @@ using UnityEngine;
 public class CheckEnemyCollision : MonoBehaviour
 {
     public int attackDamage = 1;
-    public int staggerDist = 1;
     public GameObject player;
-    public float knockbackTime = 0.2f;
+    public float KBForceMult = 1;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Enemy")
         {
-            Debug.Log("Enemy hit");
+            other.GetComponent<EnemyHealth>().KBCounter = other.GetComponent<EnemyHealth>().KBTotalTime;
+            other.GetComponent<EnemyHealth>().KBForceMult = other.GetComponent<EnemyHealth>().KBForceMult*KBForceMult;
             other.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-
-            if (player.transform.position.x < other.transform.position.x)
-                other.GetComponent<Rigidbody2D>().AddForce(Vector2.right * staggerDist, ForceMode2D.Impulse);
-
-            else if (player.transform.position.x > other.transform.position.x)
-                other.GetComponent<Rigidbody2D>().AddForce(Vector2.left * staggerDist, ForceMode2D.Impulse);
         }
     }
-
-
 }

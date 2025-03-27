@@ -138,6 +138,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   animator: {fileID: 1372749444100917099}
+  player: {fileID: 0}
+  KBForce: 2
+  KBForceMult: 1
+  KBCounter: 0
+  KBTotalTime: 0.5
 --- !u!1 &4847253867020224342
 GameObject:
   m_ObjectHideFlags: 0

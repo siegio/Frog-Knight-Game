@@ -245,3 +245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   animator: {fileID: 6729479894091145869}
+  player: {fileID: 0}
+  KBForce: 5
+  KBForceMult: 1
+  KBCounter: 0
+  KBTotalTime: 0.3
