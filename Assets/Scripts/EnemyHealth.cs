@@ -22,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+// Enemy gets knocked back when hit
     private void FixedUpdate()
     {
         if (player.transform.position.x < transform.position.x && KBCounter > 0)

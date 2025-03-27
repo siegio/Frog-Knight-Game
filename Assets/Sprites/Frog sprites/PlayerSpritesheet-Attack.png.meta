@@ -116,7 +116,7 @@ TextureImporter:
         x: 277
         y: 7217
         width: 589
-        height: 672
+        height: 691
       alignment: 9
       pivot: {x: 0.390758, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_2
       rect:
         serializedVersion: 2
-        x: 1137
+        x: 1144
         y: 7205
-        width: 474
-        height: 900
+        width: 467
+        height: 896
       alignment: 9
       pivot: {x: 0.23820451, y: -0.003393095}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_7
       rect:
         serializedVersion: 2
-        x: 126
+        x: 116
         y: 6413
-        width: 969
-        height: 708
+        width: 979
+        height: 683
       alignment: 9
       pivot: {x: 0.13592677, y: 0.0041751484}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_8
       rect:
         serializedVersion: 2
-        x: 1251
+        x: 1246
         y: 6414
-        width: 987
-        height: 638
+        width: 991
+        height: 668
       alignment: 9
       pivot: {x: 0.21465378, y: 0.009206072}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,9 +219,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2425
-        y: 6416
+        y: 6418
         width: 905
-        height: 665
+        height: 683
       alignment: 9
       pivot: {x: 0.25431523, y: 0.0044112434}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,9 +239,9 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_10
       rect:
         serializedVersion: 2
-        x: 119
+        x: 123
         y: 5408
-        width: 653
+        width: 649
         height: 828
       alignment: 9
       pivot: {x: 0.5907993, y: -0.0000005868765}
@@ -281,12 +281,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_14
       rect:
         serializedVersion: 2
-        x: 1880
+        x: 1849
         y: 5405
-        width: 1511
+        width: 1575
         height: 683
       alignment: 9
-      pivot: {x: 0.26966617, y: 0.004393101}
+      pivot: {x: 0.28390703, y: 0.0019588443}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,7 +304,7 @@ TextureImporter:
         serializedVersion: 2
         x: 122
         y: 4535
-        width: 1153
+        width: 1161
         height: 686
       alignment: 9
       pivot: {x: 0.05878158, y: 0.0043425714}
@@ -323,10 +323,10 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_23
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 4531
-        width: 1095
-        height: 690
+        x: 1323
+        y: 4532
+        width: 1078
+        height: 689
       alignment: 9
       pivot: {x: 0.05850724, y: 0.011126444}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,12 +365,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_32
       rect:
         serializedVersion: 2
-        x: 185
+        x: 194
         y: 3355
-        width: 710
-        height: 708
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 699
+        height: 716
+      alignment: 9
+      pivot: {x: 0.45041355, y: 0.00000068195703}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_33
       rect:
         serializedVersion: 2
-        x: 1138
+        x: 1122
         y: 3347
-        width: 635
-        height: 985
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 651
+        height: 997
+      alignment: 9
+      pivot: {x: 0.51869214, y: -0.002483035}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_35
       rect:
         serializedVersion: 2
-        x: 2073
+        x: 2059
         y: 3351
-        width: 1620
-        height: 1025
+        width: 1622
+        height: 1072
       alignment: 9
-      pivot: {x: 0.3299776, y: 0.004564358}
+      pivot: {x: 0.34020665, y: 0.004564428}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_61
       rect:
         serializedVersion: 2
-        x: 182
-        y: 2285
-        width: 1518
-        height: 765
+        x: 94
+        y: 2270
+        width: 1622
+        height: 956
       alignment: 9
-      pivot: {x: 0.2797279, y: 0.006033305}
+      pivot: {x: 0.3262173, y: 0.0118183475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_64
       rect:
         serializedVersion: 2
-        x: 1820
+        x: 1876
         y: 2285
-        width: 1143
-        height: 736
+        width: 1106
+        height: 729
       alignment: 9
-      pivot: {x: 0.3890192, y: -0.00061148935}
+      pivot: {x: 0.35401583, y: -0.0006115237}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,10 +470,10 @@ TextureImporter:
       name: PlayerSpritesheet-Attack_65
       rect:
         serializedVersion: 2
-        x: 3137
+        x: 3134
         y: 2269
-        width: 709
-        height: 828
+        width: 721
+        height: 833
       alignment: 9
       pivot: {x: 0.38995767, y: 0.0050231637}
       border: {x: 0, y: 0, z: 0, w: 0}

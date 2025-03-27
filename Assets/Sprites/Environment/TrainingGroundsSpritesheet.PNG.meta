@@ -302,12 +302,12 @@ TextureImporter:
       name: TrainingGroundsSpritesheet_9
       rect:
         serializedVersion: 2
-        x: 655
-        y: 1
-        width: 770
-        height: 189
-      alignment: 9
-      pivot: {x: 0.5, y: 0.772511}
+        x: 728
+        y: 148
+        width: 696
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,6 +340,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: TrainingGroundsSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1
+        width: 702
+        height: 147
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e445678486da3a448b7acfb0af63b136
+      internalID: -241515544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -355,6 +376,7 @@ TextureImporter:
       TrainingGroundsSpritesheet_1: -1689295347
       TrainingGroundsSpritesheet_10: -241515544
       TrainingGroundsSpritesheet_11: 1474921216
+      TrainingGroundsSpritesheet_12: 2130244902
       TrainingGroundsSpritesheet_2: 24420587
       TrainingGroundsSpritesheet_3: -1241919611
       TrainingGroundsSpritesheet_4: 1141624664

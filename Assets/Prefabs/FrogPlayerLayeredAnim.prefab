@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 1
+  player: {fileID: 0}
+  KBForceMult: 1
 --- !u!1 &1392710441974089396
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 1
+  player: {fileID: 0}
+  KBForceMult: 1
 --- !u!1 &3741667924074035951
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,7 +490,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0048596263, y: 1.3151215}
+  m_Offset: {x: 0.07, y: 1.02}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -497,7 +501,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.966, y: 0.98155755}
+  m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
 --- !u!70 &7574296330460309312
 CapsuleCollider2D:
@@ -531,8 +535,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0048596263, y: 0.48490044}
-  m_Size: {x: 0.966, y: 0.966}
+  m_Offset: {x: 0.07, y: 0.4}
+  m_Size: {x: 0.8, y: 0.8}
   m_Direction: 0
 --- !u!114 &3483068106574651163
 MonoBehaviour:
@@ -650,6 +654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 1
+  player: {fileID: 0}
+  KBForceMult: 1
 --- !u!1 &7051841423812531342
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +774,6 @@ GameObject:
   - component: {fileID: 8702200230663644271}
   - component: {fileID: 696022593133538714}
   - component: {fileID: 308098406608022890}
-  - component: {fileID: 8442904549705599694}
   m_Layer: 0
   m_Name: FrogPlayerLayeredAnim
   m_TagString: Player
@@ -840,7 +845,7 @@ MonoBehaviour:
   bodyAnim: {fileID: 9157769591374799995}
   capeAnim: {fileID: 6886110996084997451}
   jump: 7
-  groundedY: -0.06
+  groundedY: -0.03
   isAttacking: 0
 --- !u!114 &308098406608022890
 MonoBehaviour:
@@ -855,17 +860,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cm: {fileID: 0}
---- !u!114 &8442904549705599694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8999789970876488883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2137f6d3a3de6514084ee6a93cc40dcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myAnim: {fileID: 9157769591374799995}
-  isAttacking: 0
