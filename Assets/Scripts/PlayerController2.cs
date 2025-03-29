@@ -41,12 +41,12 @@ public class PlayerController2 : MonoBehaviour
 
 
         if (IsAttackFinished())
-         
+        
         {
-                transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
-
-                CheckJump();
-                CheckAnimations();
+            transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+            //bodyAnim.SetBool("isWalking", true);
+            CheckJump();
+            CheckAnimations();
         }
 
         if (!IsAttackFinished())
@@ -60,11 +60,10 @@ public class PlayerController2 : MonoBehaviour
                 Flip();
             }
 
-            if (inputHorizontal < 0 && facingRight)
-            {
-                Flip();
-            }
-        
+        if (inputHorizontal < 0 && facingRight)
+        {
+            Flip();
+        }
 
     }
 
@@ -102,22 +101,38 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-
+            
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
 
-            headAnim.Play("Head_Walk");
-            bodyAnim.Play("Player_Jump");
-            capeAnim.Play("CapeF_Walk");
+            if (rb.velocity.y > 0)
+            {
+                headAnim.Play("Head_Walk");
+                bodyAnim.Play("Player_Jump");
+                capeAnim.Play("CapeF_Walk");
+            }
+
+            else if (rb.velocity.y < 0)
+            {
+                headAnim.Play("Head_Walk");
+                bodyAnim.Play("Player_JumpDown");
+                capeAnim.Play("CapeF_Walk");
+            }
 
         }
 
-        if (!IsGrounded())
+        if (!IsGrounded() && rb.velocity.y > 0)
         {
             headAnim.Play("Head_Walk");
             bodyAnim.Play("Player_Jump");
             capeAnim.Play("CapeF_Walk");
         }
 
+        else if (!IsGrounded() && rb.velocity.y < 0)
+        {
+            headAnim.Play("Head_Walk");
+            bodyAnim.Play("Player_JumpDown");
+            capeAnim.Play("CapeF_Walk");
+        }
 
     }
 
@@ -163,7 +178,7 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && !isAttacking && IsJumpFinished())
         {
-            //Debug.Log("Attacking");
+            Debug.Log("Attacking");
             isAttacking = true;
         }
     }
@@ -172,7 +187,6 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && !IsGrounded())
         {
-            Debug.Log("Attacking");
             bodyAnim.SetTrigger("Attack");
         }
     }

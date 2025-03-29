@@ -9084,6 +9084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reeds (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3660536091703900550, guid: f287f3d7e1653f348a24917d44c4e4d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.029
+      objectReference: {fileID: 0}
     - target: {fileID: 8655075414556409854, guid: f287f3d7e1653f348a24917d44c4e4d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.95
@@ -9502,7 +9506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432181673093442714, guid: db092fe67829bac478728ff4a2836968, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 7432181673093442714, guid: db092fe67829bac478728ff4a2836968, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11760,7 +11764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432181673093442714, guid: db092fe67829bac478728ff4a2836968, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 7432181673093442714, guid: db092fe67829bac478728ff4a2836968, type: 3}
       propertyPath: m_LocalPosition.z
