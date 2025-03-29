@@ -6,6 +6,7 @@ public class PlayerController2 : MonoBehaviour
 {
     public float speed;
     public float attackSpeed;
+    float originalSpeed;
 
     Rigidbody2D rb;
 
@@ -24,7 +25,7 @@ public class PlayerController2 : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        
+        originalSpeed = speed;
     }
 
     void Start()
@@ -41,8 +42,17 @@ public class PlayerController2 : MonoBehaviour
         AerialAttack();
         inputHorizontal = Input.GetAxisRaw("Horizontal");
 
+        //Disable player movewment during hit knockback
+        if (GetComponentInChildren<PlayerHealth>().PlayerDamaged == true)
+        {
+            speed = 0;
+        }
+        else if (GetComponentInChildren<PlayerHealth>().PlayerDamaged == false)
+        {
+            speed = originalSpeed;
+        }
 
-        if (IsAttackFinished())
+            if (IsAttackFinished())
         
         {
             transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);

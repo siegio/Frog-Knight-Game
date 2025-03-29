@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -14,12 +15,15 @@ public class EnemyHealth : MonoBehaviour
     public float KBForceMult = 1;
     public float KBCounter;
     public float KBTotalTime = 2;
-    
+
+    private CinemachineImpulseSource impulseSource;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+
+        impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
 // Enemy gets knocked back when hit
@@ -49,6 +53,9 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+
+        CameraShakeManager.instance.CameraShake(impulseSource);
+
         currentHealth -= damage;
 
         animator.SetTrigger("Hurt");

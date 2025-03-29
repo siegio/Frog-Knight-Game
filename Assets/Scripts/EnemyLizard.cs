@@ -16,6 +16,8 @@ public class EnemyLizard : MonoBehaviour
     void Update()
     {
 
+        CheckJump();
+
         if (Vector2.Distance(player.transform.position, transform.position) < aggroRange)
         {
             //Makes enemy go right and left on x-axis)
@@ -57,6 +59,25 @@ public class EnemyLizard : MonoBehaviour
 
         }
 
+    }
+
+    void CheckJump()
+    {
+
+        if (GetComponent<Rigidbody2D>().velocity.y > 0)
+        {
+            GetComponentInChildren<Animator>().Play("Cricket_JumpUp");
+        }
+
+        else if (GetComponent<Rigidbody2D>().velocity.y < 0)
+        {
+            GetComponentInChildren<Animator>().Play("Cricket_JumpDown");
+        }
+
+        if (GetComponent<Rigidbody2D>().velocity.y == 0)
+        {
+            GetComponentInChildren<Animator>().Play("Cricket_Walk");
+        }
     }
 
 

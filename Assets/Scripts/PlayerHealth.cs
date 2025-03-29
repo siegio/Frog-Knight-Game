@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -17,14 +18,21 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject player;
 
+    public bool PlayerDamaged = false;
+
+    private CinemachineImpulseSource impulseSource;
+
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
+        impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
     void TakeDamage(int damage)
     {
+        
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
@@ -36,6 +44,9 @@ public class PlayerHealth : MonoBehaviour
         {
             KBCounter = KBTotalTime;
 
+
+            PlayerDamaged = true;
+
             if (other.transform.position.x < transform.position.x && KBCounter > 0)
 
                 //GetComponent<Rigidbody2D>().AddForce(Vector2.right * KBForce, ForceMode2D.Impulse);
@@ -45,8 +56,12 @@ public class PlayerHealth : MonoBehaviour
                 //GetComponent<Rigidbody2D>().AddForce(Vector2.left * KBForce, ForceMode2D.Impulse);
                 player.GetComponent<Rigidbody2D>().velocity = new Vector2(-KBForce, KBForce);
 
-            TakeDamage(20);
 
+            //Screenshake
+            CameraShakeManager.instance.CameraShake(impulseSource);
+
+            //Deal damage to player
+            TakeDamage(20);
         }
 
         //Sets Game Over screen when player runs out of HP
@@ -74,6 +89,11 @@ public class PlayerHealth : MonoBehaviour
         if (KBCounter > 0)
         {
             KBCounter -= Time.deltaTime;
+        }
+
+        if (KBCounter <= 0)
+        {
+            PlayerDamaged = false;
         }
     }
 
