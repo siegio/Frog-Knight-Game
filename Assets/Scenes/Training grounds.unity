@@ -3342,6 +3342,22 @@ PrefabInstance:
       propertyPath: attackDamage
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 696022593133538714, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: fallMultiplier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 696022593133538714, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: lowJumpMultiplier
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109785783652371707, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: fallMultiplier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109785783652371707, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
+      propertyPath: lowJumpMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1913725381537855273, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
       propertyPath: player
       value: 

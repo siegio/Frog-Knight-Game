@@ -24,10 +24,12 @@ public class PlayerController2 : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        
     }
 
     void Start()
     {
+
         rb = gameObject.GetComponent<Rigidbody2D>();
 
     }
@@ -101,22 +103,24 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
 
-            if (rb.velocity.y > 0)
+
+            if (rb.velocity.y < 0)
+            {
+                headAnim.Play("Head_Walk");
+                bodyAnim.Play("Player_JumpDown");
+                capeAnim.Play("CapeF_Walk");
+            }
+
+            else if (rb.velocity.y > 0)
             {
                 headAnim.Play("Head_Walk");
                 bodyAnim.Play("Player_Jump");
                 capeAnim.Play("CapeF_Walk");
             }
 
-            else if (rb.velocity.y < 0)
-            {
-                headAnim.Play("Head_Walk");
-                bodyAnim.Play("Player_JumpDown");
-                capeAnim.Play("CapeF_Walk");
-            }
+
 
         }
 

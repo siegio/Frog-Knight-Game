@@ -553,6 +553,10 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 0}
+  KBForce: 5
+  KBCounter: 0
+  KBTotalTime: 2
+  player: {fileID: 0}
 --- !u!1 &7008898641616285457
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,6 +778,7 @@ GameObject:
   - component: {fileID: 8702200230663644271}
   - component: {fileID: 696022593133538714}
   - component: {fileID: 308098406608022890}
+  - component: {fileID: 1109785783652371707}
   m_Layer: 0
   m_Name: FrogPlayerLayeredAnim
   m_TagString: Player
@@ -860,3 +865,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cm: {fileID: 0}
+--- !u!114 &1109785783652371707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999789970876488883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd21e8081804ef418d3f892d3be2c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallMultiplier: 2
+  lowJumpMultiplier: 3
