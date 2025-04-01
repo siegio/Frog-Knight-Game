@@ -18,12 +18,16 @@ public class EnemyHealth : MonoBehaviour
 
     private CinemachineImpulseSource impulseSource;
 
+    private DamageFlash _damageFlash;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
 
         impulseSource = GetComponent<CinemachineImpulseSource>();
+
+        _damageFlash = GetComponent<DamageFlash>();
     }
 
 // Enemy gets knocked back when hit
@@ -64,6 +68,9 @@ public class EnemyHealth : MonoBehaviour
         {
             Die();
         }
+
+        //damage flash effect
+        _damageFlash.CallDamageFlash();
     }
 
     void Die(){
