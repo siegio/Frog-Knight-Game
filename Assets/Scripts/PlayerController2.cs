@@ -22,6 +22,9 @@ public class PlayerController2 : MonoBehaviour
     public bool isAttacking = false;
     public static PlayerController2 instance;
 
+    public float coyoteTime = 0.2f;
+    private float coyoteTimeCounter;
+
     private void Awake()
     {
         instance = this;
@@ -41,6 +44,15 @@ public class PlayerController2 : MonoBehaviour
         Attack();
         AerialAttack();
         inputHorizontal = Input.GetAxisRaw("Horizontal");
+
+        if (IsGrounded())
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
 
         //Disable player movewment during hit knockback
         if (GetComponentInChildren<PlayerHealth>().PlayerDamaged == true)
@@ -111,10 +123,11 @@ public class PlayerController2 : MonoBehaviour
     //Jump
     void CheckJump()
     {
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
 
+            coyoteTimeCounter = 0f;
 
             if (rb.velocity.y < 0)
             {
