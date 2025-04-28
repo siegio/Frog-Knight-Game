@@ -25,6 +25,9 @@ public class PlayerController2 : MonoBehaviour
     public float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
+    public float jumpBufferTime = 0.2f;
+    private float jumpBufferCounter;
+
     private void Awake()
     {
         instance = this;
@@ -52,6 +55,15 @@ public class PlayerController2 : MonoBehaviour
         else
         {
             coyoteTimeCounter -= Time.deltaTime;
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
         }
 
         //Disable player movewment during hit knockback
@@ -123,10 +135,10 @@ public class PlayerController2 : MonoBehaviour
     //Jump
     void CheckJump()
     {
-        if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
+        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump, ForceMode2D.Impulse);
-
+            
             coyoteTimeCounter = 0f;
 
             if (rb.velocity.y < 0)
@@ -141,6 +153,8 @@ public class PlayerController2 : MonoBehaviour
                 headAnim.Play("Head_Walk");
                 bodyAnim.Play("Player_Jump");
                 capeAnim.Play("CapeF_Walk");
+
+                jumpBufferCounter = 0f;
             }
 
 
