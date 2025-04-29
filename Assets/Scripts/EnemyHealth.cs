@@ -17,8 +17,9 @@ public class EnemyHealth : MonoBehaviour
     public float KBTotalTime = 2;
 
     private CinemachineImpulseSource impulseSource;
-
     private DamageFlash _damageFlash;
+    public ParticleSystem onHitEffect1;
+    public ParticleSystem onHitEffect2;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,7 @@ public class EnemyHealth : MonoBehaviour
             KBCounter -= Time.deltaTime;
         }
 
+        //animator.ResetTrigger("Hurt");
     }
 
 
@@ -64,18 +66,21 @@ public class EnemyHealth : MonoBehaviour
 
         animator.SetTrigger("Hurt");
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }
 
         //damage flash effect
         _damageFlash.CallDamageFlash();
+
+        Instantiate(onHitEffect1);
+        Instantiate(onHitEffect2);
     }
 
     void Die(){
 
-        //enable below when wasp has a death anim
+        //enable below when enemy has a death anim
         //animator.SetBool("IsDead", true);
 
         GetComponent<Collider2D>().enabled = false;

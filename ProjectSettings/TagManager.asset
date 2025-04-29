@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tadpole
   - Enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX

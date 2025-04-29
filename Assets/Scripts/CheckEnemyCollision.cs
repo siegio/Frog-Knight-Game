@@ -10,7 +10,7 @@ public class CheckEnemyCollision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag == "Enemy" || other.tag == "Obstacle")
         {
             other.GetComponent<EnemyHealth>().KBCounter = other.GetComponent<EnemyHealth>().KBTotalTime;
             other.GetComponent<EnemyHealth>().KBForceMult = other.GetComponent<EnemyHealth>().KBForceMult*KBForceMult;
