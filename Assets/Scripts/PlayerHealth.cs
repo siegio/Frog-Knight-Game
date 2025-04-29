@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject player;
 
     public bool PlayerDamaged = false;
+    private DamageFlash _damageFlash;
 
     private CinemachineImpulseSource impulseSource;
 
@@ -28,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
 
         impulseSource = GetComponent<CinemachineImpulseSource>();
+        _damageFlash = GetComponentInParent<DamageFlash>();
     }
 
     void TakeDamage(int damage)
@@ -36,6 +38,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+
+        //damage flash effect
+        _damageFlash.CallDamageFlash();
     }
 
     private void OnCollisionEnter2D(Collision2D other)

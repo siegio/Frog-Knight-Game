@@ -76,7 +76,7 @@ public class PlayerController2 : MonoBehaviour
             speed = originalSpeed;
         }
 
-            if (IsAttackFinished())
+        if (IsAttackFinished())
         
         {
             transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
@@ -88,13 +88,13 @@ public class PlayerController2 : MonoBehaviour
         if (!IsAttackFinished())
 
         {
-            transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * attackSpeed * Time.deltaTime);
+            transform.Translate(Vector2.right * Input.GetAxis("Horizontal") * attackSpeed * Time.deltaTime);            
         }
 
         if (inputHorizontal > 0 && !facingRight)
-            {
-                Flip();
-            }
+        {
+            Flip();
+        }
 
         if (inputHorizontal < 0 && facingRight)
         {
@@ -219,14 +219,16 @@ public class PlayerController2 : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && !isAttacking && IsJumpFinished())
         {
-            Debug.Log("Attacking");
-            isAttacking = true;
+  
+        //bodyAnim.SetTrigger("Attack");
+        isAttacking = true;
+            
         }
     }
 
     void AerialAttack()
     {
-        if (Input.GetButtonDown("Fire1") && !IsGrounded())
+        if (Input.GetButtonDown("Fire1") && !IsGrounded() && IsAttackFinished())
         {
             bodyAnim.SetTrigger("Attack");
         }
@@ -235,7 +237,7 @@ public class PlayerController2 : MonoBehaviour
     public bool IsAttackFinished()
     {
 
-        if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
+            if (!bodyAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
         {
             //Debug.Log("AttackFinished");
             return true;
@@ -246,8 +248,7 @@ public class PlayerController2 : MonoBehaviour
             //Debug.Log("AttackNotFinished");
             return false;
         }
-
         return false;
-
+        
     }
 }
