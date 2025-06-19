@@ -3966,6 +3966,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 358197586}
     - target: {fileID: 4409928351287145390, guid: c7854c9e86a563746bef0371829be7a5, type: 3}
+      propertyPath: tadpoleGoal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409928351287145390, guid: c7854c9e86a563746bef0371829be7a5, type: 3}
       propertyPath: tadpoleText
       value: 
       objectReference: {fileID: 488736957}

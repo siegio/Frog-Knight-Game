@@ -113,10 +113,10 @@ TextureImporter:
       name: BridgeSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1806
-        width: 514
-        height: 242
+        x: 16
+        y: 1848
+        width: 456
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: BridgeSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 517
-        y: 1805
-        width: 512
-        height: 241
+        x: 499
+        y: 1849
+        width: 381
+        height: 137
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: BridgeSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 909
-        y: 1512
-        width: 485
-        height: 275
+        x: 905
+        y: 1529
+        width: 480
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: BridgeSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 1526
-        y: 1524
-        width: 439
-        height: 519
+        x: 1528
+        y: 1534
+        width: 424
+        height: 504
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,9 +198,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1532
-        width: 526
-        height: 238
+        y: 1457
+        width: 515
+        height: 304
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,7 +240,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1295
-        y: 471
+        y: 469
         width: 107
         height: 849
       alignment: 0
@@ -260,10 +260,10 @@ TextureImporter:
       name: BridgeSpritesheet_8
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1286
-        width: 512
-        height: 235
+        x: 1606
+        y: 1336
+        width: 442
+        height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: BridgeSpritesheet_9
       rect:
         serializedVersion: 2
-        x: 22
+        x: 58
         y: 507
-        width: 176
-        height: 726
+        width: 149
+        height: 715
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,9 +302,9 @@ TextureImporter:
       name: BridgeSpritesheet_10
       rect:
         serializedVersion: 2
-        x: 257
+        x: 264
         y: 0
-        width: 512
+        width: 504
         height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -323,10 +323,10 @@ TextureImporter:
       name: BridgeSpritesheet_11
       rect:
         serializedVersion: 2
-        x: 1420
-        y: 1006
-        width: 104
-        height: 286
+        x: 1423
+        y: 1010
+        width: 97
+        height: 277
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: BridgeSpritesheet_12
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 502
-        width: 90
-        height: 784
+        x: 1792
+        y: 504
+        width: 94
+        height: 782
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,9 +386,9 @@ TextureImporter:
       name: BridgeSpritesheet_14
       rect:
         serializedVersion: 2
-        x: 10
+        x: 13
         y: 0
-        width: 224
+        width: 231
         height: 504
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -407,10 +407,10 @@ TextureImporter:
       name: BridgeSpritesheet_15
       rect:
         serializedVersion: 2
-        x: 1533
+        x: 1537
         y: 0
-        width: 146
-        height: 768
+        width: 138
+        height: 760
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: BridgeSpritesheet_16
       rect:
         serializedVersion: 2
-        x: 1786
+        x: 1798
         y: 0
-        width: 262
-        height: 512
+        width: 246
+        height: 501
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,9 +450,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1087
-        y: 1793
+        y: 1790
         width: 129
-        height: 250
+        height: 247
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: BridgeSpritesheet_18
       rect:
         serializedVersion: 2
-        x: 1677
+        x: 1685
         y: 0
-        width: 109
-        height: 774
+        width: 101
+        height: 760
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: BridgeSpritesheet_19
       rect:
         serializedVersion: 2
-        x: 1277
+        x: 1274
         y: 5
-        width: 256
-        height: 317
+        width: 270
+        height: 318
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: BridgeSpritesheet_20
       rect:
         serializedVersion: 2
-        x: 1026
+        x: 1021
         y: 0
-        width: 251
-        height: 261
+        width: 254
+        height: 229
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: BridgeSpritesheet_21
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1025
-        width: 512
-        height: 184
+        x: 248
+        y: 1060
+        width: 528
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +554,10 @@ TextureImporter:
       name: BridgeSpritesheet_22
       rect:
         serializedVersion: 2
-        x: 769
-        y: 1025
-        width: 512
-        height: 175
+        x: 851
+        y: 1022
+        width: 433
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,9 +576,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 763
-        y: 260
-        width: 512
-        height: 768
+        y: 310
+        width: 521
+        height: 714
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,9 +638,9 @@ TextureImporter:
       name: BridgeSpritesheet_26
       rect:
         serializedVersion: 2
-        x: 98
+        x: 94
         y: 1251
-        width: 143
+        width: 147
         height: 175
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

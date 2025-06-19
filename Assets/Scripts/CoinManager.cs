@@ -10,6 +10,7 @@ public class CoinManager : MonoBehaviour
     public TextMeshProUGUI tadpoleText;
     public GameObject door;
     private bool doorDestroyed;
+    public int tadpoleGoal;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class CoinManager : MonoBehaviour
     {
         tadpoleText.text = tadpoleCount.ToString();
 
-        if(tadpoleCount == 4 && !doorDestroyed)
+        if(tadpoleCount == tadpoleGoal && !doorDestroyed)
         {
             doorDestroyed = true;
             Destroy(door);

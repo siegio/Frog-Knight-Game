@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Over.unity
     guid: 7fd78376d4eb05542b5483c84f649c29
   - enabled: 1
-    path: Assets/Scenes/Level 1 - Castle Bridge.unity
+    path: Assets/Scenes/Castle Bridge.unity
     guid: 8a7a6ab49bbbedf49a16cea5dedf4209
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Training grounds.unity
     guid: e9fb3905500e82b40b83693fdac93f12
+  - enabled: 1
+    path: Assets/Scenes/Golden Fields.unity
+    guid: c2fc99ae17b60cf40be100f86bd74a50
   m_configObjects: {}
