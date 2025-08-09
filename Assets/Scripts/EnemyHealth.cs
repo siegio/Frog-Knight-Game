@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
 
     private CinemachineImpulseSource impulseSource;
     private DamageFlash _damageFlash;
+    public GameObject parentObj;
     public ParticleSystem onHitEffect1;
     public ParticleSystem onHitEffect2;
 
@@ -74,8 +75,8 @@ public class EnemyHealth : MonoBehaviour
         //damage flash effect
         _damageFlash.CallDamageFlash();
 
-        Instantiate(onHitEffect1);
-        Instantiate(onHitEffect2);
+        Instantiate(onHitEffect1, parentObj.transform);
+        Instantiate(onHitEffect2, parentObj.transform);
     }
 
     void Die(){

@@ -2209,6 +2209,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a3d35e5aba39121428cc8c8a9160d814, type: 2}
+    - target: {fileID: 1371041563840013225, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1625651342961826182, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
       propertyPath: m_Name
       value: Enemy_Wasp
@@ -2226,9 +2230,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 563495965}
     - target: {fileID: 4933538438514095781, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: maxHealth
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933538438514095781, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: parentObj
+      value: 
+      objectReference: {fileID: 560419980}
+    - target: {fileID: 4933538438514095781, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
       propertyPath: CheckEnemyCollision
       value: 
       objectReference: {fileID: 1575895182}
+    - target: {fileID: 5506753185931914681, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426765369567759194, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711134632522535473, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7087163788714949307, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
       propertyPath: player
       value: 
@@ -2241,6 +2265,10 @@ PrefabInstance:
       propertyPath: CheckEnemyCollision
       value: 
       objectReference: {fileID: 1575895182}
+    - target: {fileID: 7512260685340277053, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8456347025313009462, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.456036
@@ -3563,6 +3591,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4438583400560655184, guid: 9304d1731e065dd4a876c37fcbe0d26b, type: 3}
   m_PrefabInstance: {fileID: 1022975159}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &284752003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1385680582681867530, guid: ed0d0cf70f2c26442973ba96c10a5e1f, type: 3}
+  m_PrefabInstance: {fileID: 4731293715022242709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &295066096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4103,11 +4136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6396964050148276740, guid: c5ca2f5a9541c4f45aa5ce7df1f9fd52, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2999997
+      value: 30.07
       objectReference: {fileID: 0}
     - target: {fileID: 6396964050148276740, guid: c5ca2f5a9541c4f45aa5ce7df1f9fd52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.7500005
+      value: 6.4600005
       objectReference: {fileID: 0}
     - target: {fileID: 6396964050148276740, guid: c5ca2f5a9541c4f45aa5ce7df1f9fd52, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6254,11 +6287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4251136695880782477, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3
+      value: 30.07
       objectReference: {fileID: 0}
     - target: {fileID: 4251136695880782477, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.71
       objectReference: {fileID: 0}
     - target: {fileID: 4251136695880782477, guid: 7d5495f3e4d872347922b93b7becdb11, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6418,6 +6451,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 868438216081281149, guid: 27334814f572e2f49b1eba5cf9f824a9, type: 3}
   m_PrefabInstance: {fileID: 559888844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &560419980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1625651342961826182, guid: 8f4a7cb0fbda23f4c8adbe32ac7e3a36, type: 3}
+  m_PrefabInstance: {fileID: 180506058}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &563495965 stripped
 GameObject:
@@ -14961,11 +14999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 830075952523133962, guid: 262c5edefc92d6a4680b6b954d7a81bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2999997
+      value: 30.07
       objectReference: {fileID: 0}
     - target: {fileID: 830075952523133962, guid: 262c5edefc92d6a4680b6b954d7a81bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.7500005
+      value: 6.4600005
       objectReference: {fileID: 0}
     - target: {fileID: 830075952523133962, guid: 262c5edefc92d6a4680b6b954d7a81bc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23879,6 +23917,10 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 570323478828565394, guid: ed0d0cf70f2c26442973ba96c10a5e1f, type: 3}
+      propertyPath: parentObj
+      value: 
+      objectReference: {fileID: 284752003}
+    - target: {fileID: 570323478828565394, guid: ed0d0cf70f2c26442973ba96c10a5e1f, type: 3}
       propertyPath: KBForceMult
       value: 0
       objectReference: {fileID: 0}
@@ -23898,6 +23940,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 563495965}
+    - target: {fileID: 1385680582681867530, guid: ed0d0cf70f2c26442973ba96c10a5e1f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1873410445327976573, guid: ed0d0cf70f2c26442973ba96c10a5e1f, type: 3}
       propertyPath: player
       value: 
