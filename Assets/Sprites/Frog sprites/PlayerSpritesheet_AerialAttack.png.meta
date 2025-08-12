@@ -108,7 +108,1204 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AerialAttack_2
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 3283
+        width: 684
+        height: 714
+      alignment: 9
+      pivot: {x: 0.5052926, y: 0.089307256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604aeb823266b9849a282bb228d838f5
+      internalID: -1147005022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_1
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 3977
+        width: 138
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e47002d4166d5439b420cbb96b310d
+      internalID: -1245576562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_2
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 3815
+        width: 51
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d08ce99cdee26429c6eb8864a6d0ab
+      internalID: 559800304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AerialAttack_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3223
+        width: 520
+        height: 741
+      alignment: 9
+      pivot: {x: 0.7018947, y: 0.15312724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d40985662dafe44982bfe2baa45589
+      internalID: 1109228861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3798
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33b8980b8d05440abad82d48625699
+      internalID: -1962802346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AerialAttack_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 3238
+        width: 642
+        height: 726
+      alignment: 9
+      pivot: {x: 0.50563884, y: 0.14596045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63974e7b810cefd44aacd11be843c28c
+      internalID: -687897396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AerialAttack_3
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 3310
+        width: 614
+        height: 659
+      alignment: 9
+      pivot: {x: 0.5176883, y: 0.060524277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ecccda902bdb749b7bee7770a33167
+      internalID: 1647624341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3625
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4b7d5cbcb45694c854bbeec88d7ebb
+      internalID: 1970951487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_8
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 3575
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34679519a4f59740bc4552917f535a7
+      internalID: -203404782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_9
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 3289
+        width: 72
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d32782708b7af4ebdeb3f4a0904eeb
+      internalID: 1265265456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_10
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3506
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a75a69178112c448cb8f814324567e
+      internalID: 2041038881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_11
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3331
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0b95fe8e175e04297b4b27d65f095b
+      internalID: -1840924622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 3223
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a9f9dc2b69949409ef4b86a8f68e63
+      internalID: -877043833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_13
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 3289
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c15b57d04c1fbf468c9320a9072cc01
+      internalID: -210417466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_14
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 3265
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2235f4bf3009891418715c6081f48572
+      internalID: 897618444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_15
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3236
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24d99a3e21872042812d65e6788e4f7
+      internalID: 1267308094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1905
+        width: 1270
+        height: 1326
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b90ae718b98d4e8fcc82a3e151eb0
+      internalID: -1471256141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_17
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 3224
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c640553844baa40b53ae8870ab35b7
+      internalID: -1725275426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_1
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1949
+        width: 1281
+        height: 1275
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa42deacdaac034687893a8846354a9
+      internalID: 306864679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 3218
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff22f11b3b790a429a2e53d88a9f383
+      internalID: -1432049640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_20
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 3214
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb686938265c0745a19dd6d3da22637
+      internalID: -1535112413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_21
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 3214
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a2f4428f19fcb4a9cc99d370222f6c
+      internalID: 461529595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_22
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 3160
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c927dcf1b65be54983159fb40424929
+      internalID: -1421618399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_23
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 3156
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ea109a3e1bf740aa0ffd4df3fdf42
+      internalID: 833760318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_24
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 3160
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eb978909253c540ad1101dc19fdc86
+      internalID: -905730668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_25
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 3138
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9da4ab1749272a4586d0eede5032075
+      internalID: -1782096825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_2
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 1959
+        width: 1276
+        height: 1175
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2807c73c769222842af3820f75b6aadc
+      internalID: -426251416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_27
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 2985
+        width: 109
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584badcb5771c1e4a9394d7c5ab2db56
+      internalID: 170127747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2565
+        width: 15
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97491b4d51dc53f4784b4c21ba95da9b
+      internalID: -520710368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 489
+        width: 877
+        height: 1419
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d628faff3a541a4fb36d60fefc9d8eb
+      internalID: -1475828782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_30
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1873
+        width: 124
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e1d0100e925e43b85a14dd4bc070d
+      internalID: -127449750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1726
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58846a3613491c0428b6c60aa82b5620
+      internalID: 1369021184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_32
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1812
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abcb9b7881ee4641b7f1f127f28b71e
+      internalID: -1312449646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_33
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1798
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ad57910164fde429f47300b0933156
+      internalID: -480064367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_34
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1806
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264694bdb8fb26f4e8fdd1674b3a2dad
+      internalID: 1956524579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 494
+        width: 1171
+        height: 1312
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d06ba7f219299a489040eb2c733a843
+      internalID: -1330739098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_36
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1778
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c459025146b444eba81d5bf0e37c71
+      internalID: 640044067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_37
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 1754
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b88274778df643448265ea9aa27b71d
+      internalID: 278642008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_38
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1774
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3701c8a5415341a1d0a877ff21daa
+      internalID: 1403194682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_39
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 1754
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1d5936a66f6854ea4d199db5b71c48
+      internalID: 415428654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordSlash_5
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 884
+        width: 414
+        height: 889
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a245bb28aae0409f0c85140372455
+      internalID: 698205061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1710
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2867c1d09298e604189e61104d35eec1
+      internalID: 1856098250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1700
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8cc9a752752e4895efeab4f30690a
+      internalID: -1943166787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_43
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1566
+        width: 74
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af6fd6de8237714497b452a999c583f
+      internalID: 607063982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1680
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91ec13a96e61d40810f500a7102711
+      internalID: -194872953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_45
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1694
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b49de3acad34e049a32fc49d0c2a316
+      internalID: -470871324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_46
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 1596
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e5c6a30208a9419047123eb390eec
+      internalID: -848702108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1427
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cab8228ec577e4fb5cc65bea9f9d8f
+      internalID: 1770415598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_48
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1344
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03c16363844f147829ae27ebb4a89c
+      internalID: -407863930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_49
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1314
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b756a1a082322ed46b93f8fa39a3a29f
+      internalID: 93523178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_50
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1318
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba2bff7e4f5614483038f9ed072857
+      internalID: -1224546902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_51
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1299
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ae38bacf2aef145b7ebfb8bf83dca6
+      internalID: 861490708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_52
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1071
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad86899160d85a4eaab7eb94a85236c
+      internalID: 16680550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_53
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 1043
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2265b89616a904585d6df4597594e6
+      internalID: 259169737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_54
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 1039
+        width: 145
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd599515617e83446a7127b4cd7e70b6
+      internalID: -2137433960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_55
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 1022
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7136b49e9204b9b459665b6eecdf14f7
+      internalID: -1752629875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpritesheet_AerialAttack_56
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 883
+        width: 184
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbdca5d4a25fee428baaba9fefde490
+      internalID: -964403645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1316,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AerialAttack_0: 1109228861
+      AerialAttack_1: -687897396
+      AerialAttack_2: -1147005022
+      AerialAttack_3: 1647624341
+      PlayerSpritesheet_AerialAttack_1: -1245576562
+      PlayerSpritesheet_AerialAttack_10: 2041038881
+      PlayerSpritesheet_AerialAttack_11: -1840924622
+      PlayerSpritesheet_AerialAttack_12: -877043833
+      PlayerSpritesheet_AerialAttack_13: -210417466
+      PlayerSpritesheet_AerialAttack_14: 897618444
+      PlayerSpritesheet_AerialAttack_15: 1267308094
+      PlayerSpritesheet_AerialAttack_17: -1725275426
+      PlayerSpritesheet_AerialAttack_19: -1432049640
+      PlayerSpritesheet_AerialAttack_2: 559800304
+      PlayerSpritesheet_AerialAttack_20: -1535112413
+      PlayerSpritesheet_AerialAttack_21: 461529595
+      PlayerSpritesheet_AerialAttack_22: -1421618399
+      PlayerSpritesheet_AerialAttack_23: 833760318
+      PlayerSpritesheet_AerialAttack_24: -905730668
+      PlayerSpritesheet_AerialAttack_25: -1782096825
+      PlayerSpritesheet_AerialAttack_27: 170127747
+      PlayerSpritesheet_AerialAttack_28: -520710368
+      PlayerSpritesheet_AerialAttack_30: -127449750
+      PlayerSpritesheet_AerialAttack_31: 1369021184
+      PlayerSpritesheet_AerialAttack_32: -1312449646
+      PlayerSpritesheet_AerialAttack_33: -480064367
+      PlayerSpritesheet_AerialAttack_34: 1956524579
+      PlayerSpritesheet_AerialAttack_36: 640044067
+      PlayerSpritesheet_AerialAttack_37: 278642008
+      PlayerSpritesheet_AerialAttack_38: 1403194682
+      PlayerSpritesheet_AerialAttack_39: 415428654
+      PlayerSpritesheet_AerialAttack_4: -1962802346
+      PlayerSpritesheet_AerialAttack_41: 1856098250
+      PlayerSpritesheet_AerialAttack_42: -1943166787
+      PlayerSpritesheet_AerialAttack_43: 607063982
+      PlayerSpritesheet_AerialAttack_44: -194872953
+      PlayerSpritesheet_AerialAttack_45: -470871324
+      PlayerSpritesheet_AerialAttack_46: -848702108
+      PlayerSpritesheet_AerialAttack_47: 1770415598
+      PlayerSpritesheet_AerialAttack_48: -407863930
+      PlayerSpritesheet_AerialAttack_49: 93523178
+      PlayerSpritesheet_AerialAttack_50: -1224546902
+      PlayerSpritesheet_AerialAttack_51: 861490708
+      PlayerSpritesheet_AerialAttack_52: 16680550
+      PlayerSpritesheet_AerialAttack_53: 259169737
+      PlayerSpritesheet_AerialAttack_54: -2137433960
+      PlayerSpritesheet_AerialAttack_55: -1752629875
+      PlayerSpritesheet_AerialAttack_56: -964403645
+      PlayerSpritesheet_AerialAttack_7: 1970951487
+      PlayerSpritesheet_AerialAttack_8: -203404782
+      PlayerSpritesheet_AerialAttack_9: 1265265456
+      SwordSlash_0: -1471256141
+      SwordSlash_1: 306864679
+      SwordSlash_2: -426251416
+      SwordSlash_3: -1330739098
+      SwordSlash_4: -1475828782
+      SwordSlash_5: 698205061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
