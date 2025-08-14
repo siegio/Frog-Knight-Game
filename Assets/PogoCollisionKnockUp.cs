@@ -11,7 +11,8 @@ public class PogoCollisionKnockUp : MonoBehaviour
     {
         if (other.tag == "Enemy" || other.tag == "Obstacle")
         {
-            player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * KBForceMult, ForceMode2D.Impulse);
+            //player.GetComponent<Rigidbody2D>().AddForce(Vector2.up * KBForceMult, ForceMode2D.Impulse);
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, KBForceMult);
         }
     }
 }
