@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 5effe478043f7054abe151d5b43f9fc5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 126
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1646
+        width: 640
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba89f5773efe4941b8b73bce0930ddf
+      internalID: -1555858991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1306
+        width: 1156
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c2c7dcc83bbce4bab53344dcbe6492
+      internalID: -1785392963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1314
+        width: 555
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8255bf5f34ad51848b1bc5e3985e54d7
+      internalID: 1625065090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1118
+        width: 616
+        height: 116
+      alignment: 9
+      pivot: {x: 0.97681594, y: 0.3833913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f8838a1c6fc1f4cbbc4edddc010a6c
+      internalID: -1964340823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 886
+        width: 1084
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8518767398aed4aaa4f681d0291d42
+      internalID: 221296261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 754
+        width: 128
+        height: 260
+      alignment: 9
+      pivot: {x: 0.7676016, y: 0.07183744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c783554054a34185e6c4b76661f6e
+      internalID: -1760473558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 782
+        width: 638
+        height: 184
+      alignment: 9
+      pivot: {x: 0.040295783, y: 0.61634827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b247450f5f4044494c0f40b8da3cd0
+      internalID: 334499946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 526
+        width: 348
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25009e762814c04c896b5ac2f77b094
+      internalID: 2082027739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 610
+        width: 440
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef8b36ee2b21e4d98dcd9f01bb5756
+      internalID: -401926749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 506
+        width: 867
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2a38c6366058b4bb047ac0cf7e7b00
+      internalID: -142207796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 274
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2e23c32493ef44d83890580713f418
+      internalID: 121075808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 54
+        width: 384
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64e1655cb65f1546a401e6ee1b32156
+      internalID: 1081691818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 50
+        width: 274
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dfeebcf340dd34abe79cacfdd13665
+      internalID: 1365992446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 22
+        width: 264
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa610cde1069d6b40a5c66827f8b5bca
+      internalID: -820886196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 64
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b16e13095ebd74683627c3a4e2b931
+      internalID: 677219722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloatingBackgroundElementsSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 34
+        width: 204
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bbda4e3f549c54c926818b1d0920f3
+      internalID: -349111269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FloatingBackgroundElementsSpritesheet_0: -1555858991
+      FloatingBackgroundElementsSpritesheet_1: -1785392963
+      FloatingBackgroundElementsSpritesheet_10: 121075808
+      FloatingBackgroundElementsSpritesheet_11: 1081691818
+      FloatingBackgroundElementsSpritesheet_12: 1365992446
+      FloatingBackgroundElementsSpritesheet_13: -820886196
+      FloatingBackgroundElementsSpritesheet_14: 677219722
+      FloatingBackgroundElementsSpritesheet_15: -349111269
+      FloatingBackgroundElementsSpritesheet_2: 1625065090
+      FloatingBackgroundElementsSpritesheet_3: -1964340823
+      FloatingBackgroundElementsSpritesheet_4: 221296261
+      FloatingBackgroundElementsSpritesheet_5: -1760473558
+      FloatingBackgroundElementsSpritesheet_6: 334499946
+      FloatingBackgroundElementsSpritesheet_7: 2082027739
+      FloatingBackgroundElementsSpritesheet_8: -401926749
+      FloatingBackgroundElementsSpritesheet_9: -142207796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
