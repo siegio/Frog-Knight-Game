@@ -11,6 +11,7 @@ public class PlayerCheckForTadpole : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Tadpole"))
         {
+            SoundEffectManager.Play("TadpoleGet");
             Destroy(other.gameObject);
             cm.tadpoleCount++;
         }
