@@ -28,6 +28,9 @@ public class PlayerController2 : MonoBehaviour
     public float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
 
+    private bool playingFootsteps = false;
+    public float footstepSpeed = 0.5f;
+
     private void Awake()
     {
         instance = this;
@@ -83,6 +86,20 @@ public class PlayerController2 : MonoBehaviour
             //bodyAnim.SetBool("isWalking", true);
             CheckJump();
             CheckAnimations();
+
+            //StartFootsteps only while walking and not jumping, and stop footsteps when no longer walking or in the air
+            if(inputHorizontal != 0 && !playingFootsteps && IsGrounded())
+            {
+                StartFootsteps();
+            }
+            else if(inputHorizontal == 0)
+            {
+                StopFootsteps();
+            }
+            else if (!IsGrounded())
+            {
+                StopFootsteps();
+            }
         }
 
         if (!IsAttackFinished())
@@ -250,5 +267,23 @@ public class PlayerController2 : MonoBehaviour
         }
         return false;
         
+    }
+
+    //functions for starting and stopping footstep audio
+    void StartFootsteps()
+    {
+        playingFootsteps = true;
+        InvokeRepeating(nameof(PlayFootstep), 0f, footstepSpeed);
+    }
+
+    void StopFootsteps()
+    {
+        playingFootsteps = false;
+        CancelInvoke(nameof(PlayFootstep));
+    }
+
+    void PlayFootstep()
+    {
+        SoundEffectManager.Play("Footstep", true);
     }
 }
